@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primarycolor ()
+}
+
+body {
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/*Start of header*/
+
+.header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0,0,0, 0.5);
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header nav {
+    margin: 5px 0;
+}
+.header nav ul {
+    display: flex;
+    align-items: flex-end;
+}
+
+.header nav ul li {
+    padding: 15px;
+    margin: 0 15px 0 15px;
+}
+
+.header nav ul li a {
+    color: teal;
+    font-size: 20px;
+}
+/*End of header*/
+
+/*start of hero*/
+
+.hero {
+    background-color: lightcoral;
+    height: 250px;
+}
+
+/*End of hero */
+
+/*Start of about me*/
+
+article {
+    color: darkslategrey;
+}
+
+article h2 {
+    font-size: 40px;
+}
+
+/* End of about me */
+
+/*start of Work */
+
+div h2 {
+    color: darkslategrey;
+    font
+}
