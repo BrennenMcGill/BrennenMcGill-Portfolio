@@ -5,19 +5,23 @@
 }
 
 :root {
-    --primarycolor ()
+    --primarycolor: #113541;
+    --textcolor: #d2ddf3;
+    --secondarycolor: #03141c;
+    --background: #cdd4d6;
 }
 
 body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
+    background-color: var(--background);
 }
 
 /*Start of header*/
 
 .header {
     padding: 20px 35px;
-    background-color: #39a6b2;
+    background-color: var(--primarycolor);
     font-weight: bold;
     display: flex;
     justify-content: space-between;
@@ -30,12 +34,12 @@ body {
 .header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #fce138;
+    color: var(--textcolor);
     margin: 0;
     text-shadow: 0 0 10px rgba(0,0,0, 0.5);
 }
 
-.header a {
+.header nav a {
     text-decoration: none;
 }
 
@@ -53,7 +57,7 @@ body {
 }
 
 .header nav ul li a {
-    color: teal;
+    color: var(--textcolor);
     font-size: 20px;
 }
 /*End of header*/
@@ -61,27 +65,63 @@ body {
 /*start of hero*/
 
 .hero {
-    background-color: lightcoral;
-    height: 250px;
+    background-image: url(./imgaes/riccardo-chiarini-a4Swf9wzdKA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
 }
 
 /*End of hero */
 
+div h2 {
+    color: var(--secondarycolor);
+    font-size: 40px; 
+}
+
 /*Start of about me*/
 
 article {
-    color: darkslategrey;
+    display: flex;
+    padding: 15px 0 15px 0;
 }
 
 article h2 {
     font-size: 40px;
+    color: var(--secondarycolor);
+    height: 100px;
+    width: 200px;
+    padding: 0 10px 0 50px;
+    text-align: right;
+    border-right: 5px solid var(--secondarycolor);
+}
+
+.article p {
+    align-items: center;
+    padding: 15px;
+    margin: 15px 0;
+
+}
+
+.nav-border-1 {
+    
 }
 
 /* End of about me */
 
 /*start of Work */
 
-div h2 {
-    color: darkslategrey;
-    font-size:40px;
+.work {
+    height: 400px;
+    width: 170px;
+    text-align: right;
+    padding:0 10px 0 50px;
+    border-right: 5px solid var(--secondarycolor);
 }
+
+.work-container {
+    height: 400px;
+}
+
+
+
+
