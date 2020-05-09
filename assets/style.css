@@ -83,43 +83,81 @@ div h2 {
 article {
     display: flex;
     padding: 15px 0 15px 0;
+    height: 300px;
 }
 
 article h2 {
     font-size: 40px;
     color: var(--secondarycolor);
     height: 100px;
-    width: 200px;
-    padding: 0 10px 0 50px;
+    width: 300px;
+    padding: 0 10px 0 70px;
     text-align: right;
     border-right: 5px solid var(--secondarycolor);
+    height: 250px;
 }
 
 .article p {
     align-items: center;
     padding: 15px;
     margin: 15px 0;
-
+    width: 50%;
 }
 
-.nav-border-1 {
-    
-}
 
 /* End of about me */
 
 /*start of Work */
 
 .work {
-    height: 400px;
-    width: 170px;
+    height: 350px;
+    width: 250px;
     text-align: right;
-    padding:0 10px 0 50px;
+    padding:0 10px 0 70px;
     border-right: 5px solid var(--secondarycolor);
 }
 
 .work-container {
     height: 400px;
+    display: flex;
+    padding: 0 0 15px 0;
+}
+
+/* End of work*/
+
+/* Start of contact*/
+
+.contact-container {
+    height: 200px;
+    display: flex;
+    padding: 0 0 15px 0;
+}
+
+.contact {
+    border-right: 5px solid var(--secondarycolor);
+    padding: 0 10px 0 70px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    text-align: right;
+}
+
+/* End of contact */
+
+/* Start of resume */
+
+.resume-container {
+    height: 200px;
+    padding: 0 0 15px 0;
+}
+
+.resume {
+    border-right: 5px solid var(--secondarycolor);
+    width: 250px;
+    padding: 0 10px 0 70px;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 
