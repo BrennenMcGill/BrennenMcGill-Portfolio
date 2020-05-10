@@ -277,27 +277,22 @@ body {
     text-align: right;
 }
 .contact-info {
-    padding-left: 25px;
-    grid-column: 2;
-    grid-row: 3;
-}
-
-.contact-info ul {
     display: flex;
+    align-items: center;
     justify-content: space-around;
     list-style: none;
-    font-size: 25px;
+    flex-wrap: wrap;
+}
+
+.contact-info li a {
     color: var(--primarycolor);
-    font-weight: bold;
-}
-
-.contact-info ul li {
-    display: inline;
-}
-
-.contact-info ul li a {
     text-decoration: none;
+    border-bottom: 4px solid var(--secondarycolor);
+    font-weight: bold;
+    font-size: 25px;
 }
+
+
 
 .contact-info ul li a:link, .contact-info ul li a:visited, .contact-info ul li a:hover {
     color: var(--primarycolor);
