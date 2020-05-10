@@ -331,7 +331,37 @@ body {
 }
 
 
+@media screen and (max-width: 980px) {
+    .wrapper {
+        display: block;
+    }
 
+
+    .left-hand {
+        border-right: none;
+        border-bottom: 4px solid var(--secondarycolor);
+    }
+
+    .about-me, .work, .contact {
+        text-align: center;
+        justify-content: center;
+        width: 75%;
+        margin: 15px 75px 25px 75px;
+    }
+
+    .self-img {
+        margin-right: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } 
+
+    .about-me-p p {
+        text-align: center;
+    }
+
+    
+}
 
 
 
