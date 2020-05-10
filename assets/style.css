@@ -20,7 +20,7 @@ body {
 /*Start of header*/
 
 .header {
-    padding: 20px 35px;
+    padding: 5px 0 25px 0;
     background-color: var(--primarycolor);
     font-weight: bold;
     display: flex;
@@ -35,9 +35,12 @@ body {
 .header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: var(--textcolor);
-    margin: 0;
-    text-shadow: 0 0 10px rgba(0,0,0, 0.5);
+    color: var(--primarycolor);
+    padding-top: 10px;
+    background-color: var(--textcolor);
+    width: 350px;
+    text-align: right;
+    border-radius: 3px;
 }
 
 .header nav {
@@ -68,6 +71,27 @@ body {
     background-position: center;
     background-size: cover;
     height: 400px;
+    display: flex;
+}
+
+.hero h2 {
+    background-color: var(--textcolor);
+    width: 200px;
+    height: 50px;
+    padding: 10px 0 0 10px;
+    margin: 0 35px 25px 0;
+    border-radius: 3px;
+}
+
+.self-img {
+    background-image: url("./imgaes/IMG_0198\ \(2\).png");
+    background-repeat: no-repeat;
+    background-position: cover;
+    height: 65%;
+    width: 20%;
+    margin: 25px;
+    border: 5px solid var(--secondarycolor);
+    border-radius: 25% 10%;
 }
 
 /*End of hero */
