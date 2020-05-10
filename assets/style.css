@@ -72,6 +72,8 @@ body {
     background-size: cover;
     height: 400px;
     display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .hero h2 {
@@ -81,17 +83,6 @@ body {
     padding: 10px 0 0 10px;
     margin: 0 35px 25px 0;
     border-radius: 3px;
-}
-
-.self-img {
-    background-image: url("./imgaes/IMG_0198\ \(2\).png");
-    background-repeat: no-repeat;
-    background-position: cover;
-    height: 65%;
-    width: 20%;
-    margin: 25px;
-    border: 5px solid var(--secondarycolor);
-    border-radius: 25% 10%;
 }
 
 /*End of hero */
@@ -115,6 +106,8 @@ body {
     padding-right: 10px;
 }
 
+/* About me */
+
 .about-me {
     grid-column: 1;
     grid-row: 1;
@@ -125,6 +118,13 @@ body {
     grid-column: 2;
     grid-row: 1;
     padding-left: 25px;
+}
+
+.self-img-img {
+    height: 150px;
+    width: 150px;
+    border: 5px solid var(--secondarycolor);
+    border-radius: 25% 10%;
 }
 
 /* work section */
