@@ -14,7 +14,7 @@ This High functioning site that will display and direct you to my previous work 
 
 ## Images of the website
 
-![Top of page](./assets/imgaes/Finished-/png)
+![Top of page](https://raw.githubusercontent.com/BrennenMcGill/BrennenMcGill-Portfolio/master/assets/imgaes/Finished-.PNG)
 
 This is my header and about me section.
 
