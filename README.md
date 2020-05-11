@@ -20,7 +20,7 @@ This is my header and about me section.
 
 ![Work section](https://raw.githubusercontent.com/BrennenMcGill/BrennenMcGill-Portfolio/master/assets/imgaes/Finished-site-2.PNG)
 
-This is the portion of my website that contains my work and a way to contact me!
+This is the portion of my website that contains my work.
 ## Contributions 
 
 Made by Brennen McGill
