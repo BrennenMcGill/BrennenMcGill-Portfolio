@@ -18,7 +18,7 @@ This High functioning site that will display and direct you to my previous work 
 
 This is my header and about me section.
 
-![Mid section of page](./assets/imgaes/Finished-site-2.png)
+![Work section](https://raw.githubusercontent.com/BrennenMcGill/BrennenMcGill-Portfolio/master/assets/imgaes/Finished-site-2.PNG)
 
 This is the portion of my website that contains my work and a way to contact me!
 ## Contributions 
